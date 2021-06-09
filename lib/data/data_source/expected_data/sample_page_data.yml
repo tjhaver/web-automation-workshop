@@ -1,0 +1,15 @@
+ERROR_MESSAGE:
+  INVALID_USERNAME: "You must enter a Valid User ID"
+  INVALID_PASSWORD: "You must enter a Valid Password"
+  INVALID_PERSONAL_CREDENTIALS: "The username or password is incorrect."
+  INVALID_USER_ID: "You must enter a Valid User ID"
+
+TEXT:
+  QUICK_BALANCE: 'Try Quick Balance'
+  SAMSUNG_PAY: 'Samsung Pay'
+
+COLOR_SCHEME:
+  TEST: 'Green'
+
+SELECT_LIST:
+  TEST: 'a | b | c | d'

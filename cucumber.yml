@@ -1,0 +1,4 @@
+default: --format pretty --tags 'not (@wip or @manual)'
+run: --format pretty --tags '@run and not (@wip or @manual)'
+regression: --format pretty --tags '@regression and not (@wip or @manual)'
+jenkins: --format pretty --tags 'not (@wip or @manual)'

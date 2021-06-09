@@ -1,0 +1,5 @@
+QA: 'https://www.someQAenv.com/'
+PROD: 'https://www.somePRODenv.com/'
+
+QA_BASE_URL: 'https://www.someQAenv.com/'
+PROD_BASE_URL: 'https://www.somePRODenv.com/'

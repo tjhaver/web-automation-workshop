@@ -1,0 +1,4 @@
+PROD:
+  SAMPLE_PDF_DIRECTORY: 'C:\PROJECTS\pdfs\'
+  LOCAL_DOWNLOADS_DIRECTORY: <%= "C:/Users/#{ENV['user']}/Downloads/" %>
+  ALTERNATE_DOWNLOADS_DIRECTORY: <%= "C:/Users/#{%x(echo %username%).gsub(/\n/,'')}/Downloads/" %>

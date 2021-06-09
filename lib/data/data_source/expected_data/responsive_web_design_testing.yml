@@ -1,0 +1,14 @@
+DOCUMENT_VALUES:
+  AUTHOR: "Perfecto Mobile - Eran Kinsbruner"
+  CREATION_DATE: "D:20160322213700-04'00'"
+  CREATOR: "Adobe InDesign CC 2015 (Macintosh)"
+  KEYWORDS: "Complete Guide, Build Responsive Web Design Test Strategy, responsive web, perfecto mobile, white paper, perfecto paper"
+  MOD_DATE: "D:20160323094623-04'00'"
+  PAGE_COUNT: "12"
+  PRODUCER: "Adobe PDF Library 15.0"
+  SUBJECT: "Complete Guide to Building a Responsive Web Design Test Strategy"
+  TITLE: "Complete Guide to Building a Responsive Web Design Test Strategy"
+  VERSION: "1.7"
+
+TEST_CASE: !ruby/regexp '/Visual/'
+POKEMON: "Pokemon"

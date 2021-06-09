@@ -1,0 +1,36 @@
+VALID_PERSONAL_LOGIN:
+  PERSONAL_USERNAME: "valid-user"
+  PERSONAL_PASSWORD: "valid-password"
+
+PERSONAL_BAD_CREDENTIALS:
+  PERSONAL_USERNAME: "fakeuser"
+  PERSONAL_PASSWORD: "fakepassword"
+
+BUSINESS_BAD_CREDENTIALS:
+  BUSINESS_COMPANY_ID: "999999"
+  BUSINESS_USER_ID: "fakeuser"
+  BUSINESS_PASSWORD: "fakepassword"
+
+FAKER_EXAMPLE:
+  NAME: <%=Faker:Name.name%>
+  FIRST_NAME: <%=Faker:Name.first_name%>
+  LAST_NAME: <%=Faker:Name.last_name%>
+  RANDOM_ST_ADRESS: <%= Faker::Address.street_address %>
+  EMAIL: <%= Faker::Internet.email %>
+  PHONE_NUMBER: <%= Faker::PhoneNumber.phone_number %>
+
+DUMMY_USER: &user
+  USERNAME: <%= ENV['username'} %>
+  PASSWORD: <%= Base64.decode64(ENV['password'}) %>
+
+DEV:
+  <<: *user
+  ENDPOINT: http://someDEVservice:9080/DummyService
+
+QA:
+  <<: *user
+  ENDPOINT: http://someQAservice:9080/DummyService
+
+PROD:
+  <<: *user
+  ENDPOINT: http://somePRODservice:9080/DummyService
